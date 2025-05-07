@@ -29,4 +29,8 @@ auth.service.ts
 ```
 ng generate service features/auth/auth
 ```
+jwt-decode
+```
+Install jwt-decode
+```
 
