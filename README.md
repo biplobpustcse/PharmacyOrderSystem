@@ -4,3 +4,17 @@
 Add-Migration InitialCreate -Project PharmacyOrderSystem.Infrastructure -StartupProject PharmacyOrderSystem.API
 Update-Database -Project PharmacyOrderSystem.Infrastructure -StartupProject PharmacyOrderSystem.API
 ```
+
+## Frontend Angular integration.
+Make sure you have Angular CLI installed:
+```
+npm install -g @angular/cli
+ng new pharmacy-order-app --routing --style=scss
+cd pharmacy-order-app
+```
+Install dependencies for authentication and API calls:
+```
+npm install @auth0/angular-jwt
+npm install bootstrap
+```
+
